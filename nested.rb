@@ -36,7 +36,7 @@ def alan_kay_is_known_for
           :languages => ["C"]
         }
      }
-		 programmer_hash[:alan_kay][:known_for]
+		 programmer_hash([:alan_kay][:known_for]).ispect
 end
 
 def dennis_ritchies_language
@@ -57,9 +57,6 @@ def dennis_ritchies_language
      }
 
 		 programmer_hash[:dennis_ritchie][:languages]
-
-
-c
 end
 
 def adding_matz
