@@ -56,9 +56,9 @@ def dennis_ritchies_language
         }
      }
 
-		x = programmer_hash[:dennis_ritchie][:languages]
-		puts x.inspect
-	x
+		 programmer_hash[:dennis_ritchie][:languages]
+		 
+		
 end
 
 def adding_matz
@@ -84,7 +84,7 @@ def adding_matz
           :languages => ["C"]
         }
      }
-
+programmer_hash.merge(:yukihiro_matsumoto => {:known_for => "Ruby", :languages => ["LISP", "C"]})
 
 end
 
