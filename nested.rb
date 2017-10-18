@@ -58,8 +58,8 @@ def dennis_ritchies_language
 
 		 c = programmer_hash[:dennis_ritchie][:languages]
 		 puts c.to_s
-		
 
+c
 end
 
 def adding_matz
