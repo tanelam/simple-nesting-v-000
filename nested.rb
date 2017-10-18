@@ -57,8 +57,8 @@ def dennis_ritchies_language
      }
 
 		 programmer_hash[:dennis_ritchie][:languages]
-		 
-		
+
+
 end
 
 def adding_matz
@@ -131,6 +131,6 @@ def adding_to_dennis
      }
 		 programmer_hash[:dennis_ritchie][:languages] << "Assembly"
 		 puts programmer_hash
-		 
+
 	programmer_hash
 end
